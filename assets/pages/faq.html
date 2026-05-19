@@ -9,15 +9,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>sobre-nos</title>
+
+    <!--Linkar a CSS com o HTML-->
+    <link rel="stylesheet" href="../css/faq.css">
+
+    <!-- Linkando o JS no HTML -->
+    <script src="../js/faq.js" defer></script>
+
 </head>
 
 <body>
     <header class="header">
-        <h1>Rotta</h1>
+        <a href="./index.html"><img src="../images/Logo.jpeg" alt="Logo da Rotta" class="logo"></a>
         <nav>
             <ul>
-                <li><a href="../../index.html" class="cabecalho">Página Inicial</a></li>
-                <li><a href="./integrantes.html" class="cabecalho">Integrantes/a></li>
+                <li><a href="../../index.html" class="cabecalho">Home</a></li>
+                <li><a href="./integrantes.html" class="cabecalho">Integrantes</a></li>
                 <li><a href="./sobre.html" class="cabecalho">Sobre</a></li>
                 <li><a href="./faq.html" class="cabecalho">FAQ</a></li>
                 <li><a href="./contato.html" class="cabecalho">Contato</a></li>
@@ -29,7 +36,8 @@
         <section>
             <p class="subtitulo">FAQ</p>
             <h1>Perguntas Frequentes</h1>
-            <p class="slogan">Aqui você tira suas dúvidas sobre a Rotta e a Soul Up — como funciona, como participar e como as recompensas são distribuídas.</p>
+            <p class="slogan">Aqui você tira suas dúvidas sobre a Rotta e a Soul Up — como funciona, como participar e
+                como as recompensas são distribuídas.</p>
             <hr>
         </section>
 
@@ -37,47 +45,63 @@
             <h3>Sobre o projeto</h3>
             <div class="item">
                 <button onclick="toggle(this)">O que é a SoulUp?</button>
-                <div class="resposta">O SoulUp é um aplicativo mobile que recompensa ações sustentáveis do dia a dia com créditos para o transporte público. O usuário registra suas ações por foto ou vídeo, acumula pontos validados por inteligência artificial e converte esses pontos em créditos para usar no ônibus.</div>
+                <div class="resposta">O SoulUp é um aplicativo mobile que recompensa ações sustentáveis do dia a dia com
+                    créditos para o transporte público. O usuário registra suas ações por foto ou vídeo, acumula pontos
+                    validados por inteligência artificial e converte esses pontos em créditos para usar no ônibus.</div>
             </div>
 
             <div class="item">
                 <button onclick="toggle(this)">O app é gratuito?</button>
-                <div class="resposta">Sim. O SoulUp é gratuito para o usuário final. O modelo de negócio é baseado em parcerias com empresas privadas que patrocinam categorias de ações sustentáveis e com o poder público que incentiva a integração com a mobilidade urbana.</div>
+                <div class="resposta">Sim. O SoulUp é gratuito para o usuário final. O modelo de negócio é baseado em
+                    parcerias com empresas privadas que patrocinam categorias de ações sustentáveis e com o poder
+                    público que incentiva a integração com a mobilidade urbana.</div>
             </div>
 
             <h3>Pontos e recompensas</h3>
             <div class="item">
                 <button onclick="toggle(this)">Que tipo de ação gera ponto?</button>
-                <div class="resposta">Ações sustentáveis cotidianas como separar o lixo reciclável, usar garrafas ou sacolas reutilizáveis, andar a pé ou de bicicleta, entre outras. Cada categoria de ação tem uma pontuação definida e pode ser patrocinada por empresas parceiras.</div>
+                <div class="resposta">Ações sustentáveis cotidianas como separar o lixo reciclável, usar garrafas ou
+                    sacolas reutilizáveis, andar a pé ou de bicicleta, entre outras. Cada categoria de ação tem uma
+                    pontuação definida e pode ser patrocinada por empresas parceiras.</div>
             </div>
 
             <div class="item">
                 <button onclick="toggle(this)">Como sei se minha ação foi aprovada?</button>
-                <div class="resposta">Após enviar a foto ou vídeo, a inteligência artificial analisa o conteúdo e retorna a validação diretamente no app. Nenhuma ação gera pontos sem passar por essa etapa — isso garante que apenas ações reais sejam recompensadas.</div>
+                <div class="resposta">Após enviar a foto ou vídeo, a inteligência artificial analisa o conteúdo e
+                    retorna a validação diretamente no app. Nenhuma ação gera pontos sem passar por essa etapa — isso
+                    garante que apenas ações reais sejam recompensadas.</div>
             </div>
 
             <div class="item">
                 <button onclick="toggle(this)">Os pontos expiram?</button>
-                <div class="resposta">As regras de expiração de pontos ainda estão sendo definidas. O objetivo é garantir que os créditos sejam utilizados dentro de um prazo razoável para manter o ciclo de engajamento ativo.</div>
+                <div class="resposta">As regras de expiração de pontos ainda estão sendo definidas. O objetivo é
+                    garantir que os créditos sejam utilizados dentro de um prazo razoável para manter o ciclo de
+                    engajamento ativo.</div>
             </div>
 
             <div class="item">
                 <button onclick="toggle(this)">Como os pontos viram créditos de transporte?</button>
-                <div class="resposta">Dentro do app, o usuário pode solicitar a conversão dos pontos acumulados em créditos de transporte. Esses créditos são integrados diretamente ao sistema de bilhetagem das operadoras parceiras por meio de APIs de mobilidade urbana.</div>
+                <div class="resposta">Dentro do app, o usuário pode solicitar a conversão dos pontos acumulados em
+                    créditos de transporte. Esses créditos são integrados diretamente ao sistema de bilhetagem das
+                    operadoras parceiras por meio de APIs de mobilidade urbana.</div>
             </div>
 
             <h3>Segurança e privacidade</h3>
             <div class="item">
                 <button onclick="toggle(this)">Como a SoulUp evita fraudes?</button>
-                <div class="resposta">A validação por inteligência artificial é a principal barreira contra fraudes. O sistema analisa o conteúdo enviado para confirmar que a ação é real e condizente com o que foi declarado. Além disso, todas as atividades são registradas em logs para rastreabilidade.</div>
+                <div class="resposta">A validação por inteligência artificial é a principal barreira contra fraudes. O
+                    sistema analisa o conteúdo enviado para confirmar que a ação é real e condizente com o que foi
+                    declarado. Além disso, todas as atividades são registradas em logs para rastreabilidade.</div>
             </div>
 
             <div class="item">
                 <button onclick="toggle(this)">Meus dados estão seguros?</button>
-                <div class="resposta">Sim. A SoulUp foi projetada com requisitos de segurança desde o início: autenticação de usuários, controle de acesso e registro de atividades. A proteção dos dados dos usuários é uma prioridade do projeto, em conformidade com as diretrizes de privacidade vigentes.</div>
-            </div> 
+                <div class="resposta">Sim. A SoulUp foi projetada com requisitos de segurança desde o início:
+                    autenticação de usuários, controle de acesso e registro de atividades. A proteção dos dados dos
+                    usuários é uma prioridade do projeto, em conformidade com as diretrizes de privacidade vigentes.
+                </div>
+            </div>
         </section>
-
     </main>
 </body>
 
