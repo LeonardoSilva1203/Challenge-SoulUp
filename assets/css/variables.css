@@ -1,4 +1,4 @@
-/* ---------- Variáveis ---------- */
+/* ---------- Style.CSS ---------- */
 :root {
     --verde: #2A8C6E;
     --verde-claro: #3DB38D;
@@ -18,4 +18,78 @@
     --raio: 12px;
     --raio-sm: 8px;
     --transicao: 0.3s ease;
+}
+
+/* ---------- Sobre.CSS---------- */
+:root {
+    --verde: #2A8C6E;
+    --verde-claro: #3DB38D;
+    --verde-escuro: #1A5E49;
+    --creme: #EDE8D5;
+    --fundo: #0F1A17;
+    --fundo-card: #152420;
+    --fundo-alt: #1A2E28;
+    --texto: #EDE8D5;
+    --texto-muted: #8FA89F;
+    --borda: rgba(42, 140, 110, 0.2);
+
+    --fonte-titulo: 'DM Serif Display', serif;
+    --fonte-corpo: 'DM Sans', sans-serif;
+
+    --raio: 12px;
+    --raio-sm: 8px;
+    --transicao: 0.3s ease;
+}
+
+/* ---------- FAQ.CSS ---------- */
+:root {
+    --verde: #2A8C6E;
+    --verde-claro: #3DB38D;
+    --verde-escuro: #1A5E49;
+    --creme: #EDE8D5;
+    --fundo: #0F1A17;
+    --fundo-card: #152420;
+    --fundo-alt: #1A2E28;
+    --texto: #EDE8D5;
+    --texto-muted: #8FA89F;
+    --borda: rgba(42, 140, 110, 0.2);
+
+    --fonte-titulo: 'DM Serif Display', serif;
+    --fonte-corpo: 'DM Sans', sans-serif;
+
+    --raio: 12px;
+    --raio-sm: 8px;
+    --transicao: 0.3s ease;
+}
+
+/* ---------- Contato.CSS ---------- */
+:root {
+    --fundo: #0f1a17;
+    --verde: #2a8c6e;
+    --verde-claro: #4ecba0;
+    --creme: #f0ede6;
+    --texto: #c8c5bc;
+    --texto-muted: #8a9990;
+    --borda: rgba(255, 255, 255, 0.07);
+    --raio-sm: 6px;
+    --raio: 12px;
+    --transicao: 0.2s ease;
+    --fonte-titulo: 'Georgia', 'Times New Roman', serif;
+    --fonte-corpo: system-ui, -apple-system, 'Segoe UI', sans-serif;
+}
+
+/* ---------- Integrantes.CSS ---------- */
+:root {
+    --fundo: #0f1a17;
+    --verde: #2a8c6e;
+    --verde-claro: #4ecba0;
+    --creme: #f0ede6;
+    --texto: #c8c5bc;
+    --texto-muted: #8a9990;
+    --borda: rgba(255, 255, 255, 0.07);
+    --raio-sm: 6px;
+    --raio: 12px;
+    --transicao: 0.2s ease;
+    --fonte-titulo: 'Georgia', 'Times New Roman', serif;
+    --fonte-corpo: system-ui, -apple-system, 'Segoe UI', sans-serif;
 }
