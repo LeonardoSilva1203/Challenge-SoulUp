@@ -474,6 +474,22 @@ main section>h3:not(:first-child) {
     }
 }
 
+/* ===========================
+   FOOTER
+=========================== */
+
+footer {
+    border-top: 1px solid var(--borda);
+    text-align: center;
+    padding: 2rem 5%;
+    font-size: 0.85rem;
+    color: var(--texto-muted);
+}
+
+footer p {
+    max-width: 100%;
+}
+
 @media (max-width: 480px) {
     main section:first-child h1 {
         font-size: 3rem;

@@ -316,6 +316,22 @@ footer {
     }
 }
 
+/* ===========================
+   FOOTER
+=========================== */
+
+footer {
+    border-top: 1px solid var(--borda);
+    text-align: center;
+    padding: 2rem 5%;
+    font-size: 0.85rem;
+    color: var(--texto-muted);
+}
+
+footer p {
+    max-width: 100%;
+}
+
 @media (max-width: 480px) {
     .cards-grid {
         grid-template-columns: 1fr 1fr;

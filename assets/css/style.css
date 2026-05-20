@@ -93,7 +93,7 @@ hr {
     height: 44px;
     width: auto;
     object-fit: contain;
-    border-radius: var(--raio-sm);
+    border-radius: var(--raio-sm); 
 }
 
 .header nav ul {
@@ -247,6 +247,22 @@ hr {
     background: rgba(42, 140, 110, 0.2);
     border-color: var(--verde);
     color: var(--creme);
+}
+
+/* ===========================
+   FOOTER
+=========================== */
+
+footer {
+    border-top: 1px solid var(--borda);
+    text-align: center;
+    padding: 2rem 5%;
+    font-size: 0.85rem;
+    color: var(--texto-muted);
+}
+
+footer p {
+    max-width: 100%;
 }
 
 /* ---------- Responsivo ---------- */
