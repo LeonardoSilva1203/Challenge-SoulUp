@@ -36,7 +36,9 @@ A ideia central é conectar sustentabilidade e mobilidade urbana: o usuário reg
 
 ## Tecnologias utilizadas
 
-- **HTML5** — estrutura semântica com tags `<header>`, `<main>`, `<section>`, `<footer>`
+- 
+            <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+        **HTML5** — estrutura semântica com tags `<header>`, `<main>`, `<section>`, `<footer>`
 - **CSS3** — variáveis CSS, Grid, Flexbox, media queries, animações
 - **JavaScript** — menu hambúrguer, accordion FAQ, validação de formulário, simulador de pontos
 - **Google Fonts** — DM Serif Display + DM Sans
