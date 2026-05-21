@@ -36,13 +36,13 @@ A ideia central é conectar sustentabilidade e mobilidade urbana: o usuário reg
 
 ## Tecnologias utilizadas
 
-- 
-            <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
-        **HTML5** — estrutura semântica com tags `<header>`, `<main>`, `<section>`, `<footer>`
-- **CSS3** — variáveis CSS, Grid, Flexbox, media queries, animações
-- **JavaScript** — menu hambúrguer, accordion FAQ, validação de formulário, simulador de pontos
-- **Google Fonts** — DM Serif Display + DM Sans
-- **SVGs inline** — ícones sem dependência de bibliotecas externas
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="18"/> **HTML5** — estrutura semântica com tags `<header>`, `<main>`, `<section>`, `<footer>`
+
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="18"/> **CSS3** — variáveis CSS, Grid, Flexbox, media queries, animações
+
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="18"/> **JavaScript** — menu hambúrguer, accordion FAQ, validação de formulário, simulador de pontos
+
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg" width="18"/> **Google Fonts** — DM Serif Display + DM Sans
 
 ---
 
