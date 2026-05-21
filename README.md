@@ -6,7 +6,7 @@
 
 ## Descrição do projeto
 
-A **Rotta** é uma solução desenvolvida com a plataforma **SoulUp** para o Challenge FIAP 2026. O projeto aborda o **Desafio 2 — Utilização de Pontos para Transporte Público**.
+A **Rotta** é uma solução desenvolvida em parceria com a plataforma **SoulUp** (Prospera) para o Challenge FIAP 2026. O projeto aborda o **Desafio 2 — Utilização de Pontos para Transporte Público**.
 
 A ideia central é conectar sustentabilidade e mobilidade urbana: o usuário registra ações sustentáveis do dia a dia pelo app da SoulUp, acumula pontos validados por inteligência artificial e converte esses pontos em créditos reais para usar no transporte público.
 
@@ -84,12 +84,21 @@ Challenge-SoulUp/
 ## Autores
 
 | Nome | RM | Turma | Área | GitHub | LinkedIn |
+<<<<<<< HEAD
 
 | Leonardo Cerqueira | 573188 | 1TDSPJ | Front-End | [github.com/LeonardoSilva1203](https://github.com/LeonardoSilva1203) | [linkedin](https://www.linkedin.com/in/leonardo-cerqueira-12a400400/) |
 | Guilherme Almeida | 571713 | 1TDSPJ | Java | [github.com/GuilhermeAlmeida0207](https://github.com/GuilhermeAlmeida0207) | [linkedin](http://www.linkedin.com/in/guimmalmeida) |
 | Thiago Santa Rosa | 572616 | 1TDSPJ | Python & Business Model | [github.com/Thiagordsr](https://github.com/Thiagordsr) | [linkedin](https://www.linkedin.com/in/thiago-rodrigues-santa-rosa-39b3b3305/) |
 | Beatriz Urbano | 569341 | 1TDSPJ | AI & Chatbot | [github.com/BeaUrbano](https://github.com/BeaUrbano) | [linkedin](https://www.linkedin.com/in/beatriz-urbano-5a9bab254) |
 | Geovanna Secchi | 573452 | 1TDSPJ | Banco de Dados | [github.com/geovannasecchi](https://github.com/geovannasecchi) | [linkedin](https://www.linkedin.com/in/geovanna-secchi-egea-3194553b5) |
+=======
+|---|---|---|---|---|---|
+| Leonardo Cerqueira | 573188 | 1TDS | Front-End | [github.com/LeonardoSilva1203](https://github.com/LeonardoSilva1203) | [linkedin](https://www.linkedin.com/in/leonardo-cerqueira-12a400400/) |
+| Guilherme Almeida | 571713 | 1TDS | Java | [github.com/GuilhermeAlmeida0207](https://github.com/GuilhermeAlmeida0207) | [linkedin](http://www.linkedin.com/in/guimmalmeida) |
+| Thiago Santa Rosa | 572616 | 1TDS | Python & Business Model | [github.com/Thiagordsr](https://github.com/Thiagordsr) | [linkedin](https://www.linkedin.com/in/thiago-rodrigues-santa-rosa-39b3b3305/) |
+| Beatriz Urbano | 569341 | 1TDS | AI & Chatbot | [github.com/BeaUrbano](https://github.com/BeaUrbano) | [linkedin](https://www.linkedin.com/in/beatriz-urbano-5a9bab254) |
+| Geovanna Secchi | 573452 | 1TDS | Banco de Dados | [github.com/geovannasecchi](https://github.com/geovannasecchi) | [linkedin](https://www.linkedin.com/in/geovanna-secchi-egea-3194553b5) |
+>>>>>>> e94610a9b07cd2af56d206ddccdd794f63adef3f
 
 ---
 
@@ -101,4 +110,8 @@ Challenge-SoulUp/
 
 ## Contato
 
+<<<<<<< HEAD
 Para dúvidas sobre o projeto, entre em contato via LinkedIn com qualquer integrante da equipe.
+=======
+Para dúvidas sobre o projeto, utilize o formulário na página de [Contato](./assets/pages/contato.html) ou entre em contato via LinkedIn com qualquer integrante da equipe.
+>>>>>>> e94610a9b07cd2af56d206ddccdd794f63adef3f
